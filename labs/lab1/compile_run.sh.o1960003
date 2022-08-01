@@ -1,0 +1,174 @@
+
+########################################################################
+#      Date:           Fri 22 Jul 2022 11:53:54 AM PDT
+#    Job ID:           1960003.v-qsvr-1.aidevcloud
+#      User:           u122046
+# Resources:           neednodes=1:gold6128:ppn=2,nodes=1:gold6128:ppn=2,walltime=06:00:00
+########################################################################
+
+
+Array size: 1024, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 0.571131 sec
+Kernel time using USM: 0.00270724 sec
+CPU serial time: 0.00014147 sec
+
+Success!
+
+Array size: 2048, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 0.0944199 sec
+Kernel time using USM: 0.00271909 sec
+CPU serial time: 0.000325361 sec
+
+Success!
+
+Array size: 4096, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 0.0955651 sec
+Kernel time using USM: 0.00325112 sec
+CPU serial time: 0.00061593 sec
+
+Success!
+
+Array size: 8192, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 0.0961186 sec
+Kernel time using USM: 0.00457058 sec
+CPU serial time: 0.00134359 sec
+
+Success!
+
+Array size: 16384, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 0.0994799 sec
+Kernel time using USM: 0.00601486 sec
+CPU serial time: 0.00282733 sec
+
+Success!
+
+Array size: 32768, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 0.101517 sec
+Kernel time using USM: 0.0085886 sec
+CPU serial time: 0.00577306 sec
+
+Success!
+
+Array size: 65536, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 0.10754 sec
+Kernel time using USM: 0.0120595 sec
+CPU serial time: 0.0121518 sec
+
+Success!
+
+Array size: 131072, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 0.116336 sec
+Kernel time using USM: 0.0149879 sec
+CPU serial time: 0.0256334 sec
+
+Success!
+
+Array size: 262144, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 0.127605 sec
+Kernel time using USM: 0.0252262 sec
+CPU serial time: 0.0534183 sec
+
+Success!
+
+Array size: 524288, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 0.152024 sec
+Kernel time using USM: 0.0474389 sec
+CPU serial time: 0.112548 sec
+
+Success!
+
+Array size: 1048576, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 0.197928 sec
+Kernel time using USM: 0.0946723 sec
+CPU serial time: 0.237533 sec
+
+Success!
+
+Array size: 2097152, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 0.301989 sec
+Kernel time using USM: 0.198428 sec
+CPU serial time: 0.501884 sec
+
+Success!
+
+Array size: 4194304, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 0.524012 sec
+Kernel time using USM: 0.420526 sec
+CPU serial time: 1.06936 sec
+
+Success!
+
+Array size: 8388608, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 1.01174 sec
+Kernel time using USM: 0.908247 sec
+CPU serial time: 2.39345 sec
+
+Success!
+
+Array size: 16777216, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 2.06201 sec
+Kernel time using USM: 1.94879 sec
+CPU serial time: 5.11403 sec
+
+Success!
+
+Array size: 33554432, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 4.39522 sec
+Kernel time using USM: 4.18503 sec
+CPU serial time: 10.8084 sec
+
+Success!
+
+Array size: 67108864, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 9.12999 sec
+Kernel time using USM: 9.19965 sec
+CPU serial time: 23.042 sec
+
+Success!
+
+Array size: 134217728, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 19.8179 sec
+Kernel time using USM: 19.644 sec
+CPU serial time: 48.4061 sec
+
+Success!
+
+Array size: 268435456, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 41.9309 sec
+Kernel time using USM: 41.6041 sec
+CPU serial time: 102.056 sec
+
+Success!
+
+Array size: 536870912, seed: 42
+Device: Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz
+Kernel time using buffer allocation: 89.2621 sec
+Kernel time using USM: 88.9625 sec
+CPU serial time: 213.347 sec
+
+Success!
+
+########################################################################
+# End of output for job 1960003.v-qsvr-1.aidevcloud
+# Date: Fri 22 Jul 2022 12:07:08 PM PDT
+########################################################################
+

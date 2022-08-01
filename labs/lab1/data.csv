@@ -1,0 +1,61 @@
+Arch,Size,Time (s)
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 1024, 0.00148977
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 2048, 0.00221323
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 4096, 0.00279553
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 8192, 0.00443866
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 16384, 0.00760985
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 32768, 0.00954254
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 65536, 0.0139742
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 131072, 0.0208099
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 262144, 0.0398875
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 524288, 0.0841508
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 1048576, 0.177339
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 2097152, 0.378333
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 4194304, 0.81957
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 8388608, 1.77719
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 16777216, 3.84117
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 33554432, 8.2966
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 67108864, 17.913
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 134217728, 38.5801
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 268435456, 82.758
+Intel(R) Xeon(R) Gold 6128 CPU @ 3.40GHz, 536870912, 177.156
+Intel(R) UHD Graphics P630, 1024, 0.000902489
+Intel(R) UHD Graphics P630, 2048, 0.000904852
+Intel(R) UHD Graphics P630, 4096, 0.00102598
+Intel(R) UHD Graphics P630, 8192, 0.00123933
+Intel(R) UHD Graphics P630, 16384, 0.00157506
+Intel(R) UHD Graphics P630, 32768, 0.00225772
+Intel(R) UHD Graphics P630, 65536, 0.00382237
+Intel(R) UHD Graphics P630, 131072, 0.00757883
+Intel(R) UHD Graphics P630, 262144, 0.0126992
+Intel(R) UHD Graphics P630, 524288, 0.0256791
+Intel(R) UHD Graphics P630, 1048576, 0.0541116
+Intel(R) UHD Graphics P630, 2097152, 0.117382
+Intel(R) UHD Graphics P630, 4194304, 0.258707
+Intel(R) UHD Graphics P630, 8388608, 0.576276
+Intel(R) UHD Graphics P630, 16777216, 1.26016
+Intel(R) UHD Graphics P630, 33554432, 2.75215
+Intel(R) UHD Graphics P630, 67108864, 5.97445
+Intel(R) UHD Graphics P630, 134217728, 13.0105
+Intel(R) UHD Graphics P630, 268435456, 28.2309
+Intel(R) UHD Graphics P630, 536870912, 60.9349
+Intel(R) Iris(R) Xe MAX Graphics, 1024, 0.000824933
+Intel(R) Iris(R) Xe MAX Graphics, 2048, 0.000773583
+Intel(R) Iris(R) Xe MAX Graphics, 4096, 0.000950685
+Intel(R) Iris(R) Xe MAX Graphics, 8192, 0.00102306
+Intel(R) Iris(R) Xe MAX Graphics, 16384, 0.00127659
+Intel(R) Iris(R) Xe MAX Graphics, 32768, 0.00163464
+Intel(R) Iris(R) Xe MAX Graphics, 65536, 0.00224221
+Intel(R) Iris(R) Xe MAX Graphics, 131072, 0.00348748
+Intel(R) Iris(R) Xe MAX Graphics, 262144, 0.00616026
+Intel(R) Iris(R) Xe MAX Graphics, 524288, 0.0114778
+Intel(R) Iris(R) Xe MAX Graphics, 1048576, 0.023349
+Intel(R) Iris(R) Xe MAX Graphics, 2097152, 0.0499553
+Intel(R) Iris(R) Xe MAX Graphics, 4194304, 0.103797
+Intel(R) Iris(R) Xe MAX Graphics, 8388608, 0.223406
+Intel(R) Iris(R) Xe MAX Graphics, 16777216, 0.483661
+Intel(R) Iris(R) Xe MAX Graphics, 33554432, 1.0449
+Intel(R) Iris(R) Xe MAX Graphics, 67108864, 2.23895
+Intel(R) Iris(R) Xe MAX Graphics, 134217728, 4.77636
+Intel(R) Iris(R) Xe MAX Graphics, 268435456, 10.1633
+Intel(R) Iris(R) Xe MAX Graphics, 536870912, 21.6346

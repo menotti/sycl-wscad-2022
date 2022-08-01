@@ -1,0 +1,246 @@
+
+########################################################################
+#      Date:           Thu 21 Jul 2022 11:12:34 AM PDT
+#    Job ID:           1959440.v-qsvr-1.aidevcloud
+#      User:           u122046
+# Resources:           neednodes=1:gen9:ppn=2,nodes=1:gen9:ppn=2,walltime=06:00:00
+########################################################################
+
+
+Array size: 2, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.391069 sec
+Kernel time using USM: 0.000628066 sec
+CPU serial time: 3.42e-07 sec
+
+Success!
+
+Array size: 4, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.0722105 sec
+Kernel time using USM: 8.9531e-05 sec
+CPU serial time: 2.78e-07 sec
+
+Success!
+
+Array size: 8, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.0717268 sec
+Kernel time using USM: 0.000184837 sec
+CPU serial time: 6.81e-07 sec
+
+Success!
+
+Array size: 16, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.0719874 sec
+Kernel time using USM: 0.000182369 sec
+CPU serial time: 1.302e-06 sec
+
+Success!
+
+Array size: 32, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.0711712 sec
+Kernel time using USM: 0.000187657 sec
+CPU serial time: 2.612e-06 sec
+
+Success!
+
+Array size: 64, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.0702135 sec
+Kernel time using USM: 0.000712894 sec
+CPU serial time: 5.172e-06 sec
+
+Success!
+
+Array size: 128, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.0726536 sec
+Kernel time using USM: 0.000793751 sec
+CPU serial time: 1.075e-05 sec
+
+Success!
+
+Array size: 256, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.0714436 sec
+Kernel time using USM: 0.000845565 sec
+CPU serial time: 2.1214e-05 sec
+
+Success!
+
+Array size: 512, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.0710058 sec
+Kernel time using USM: 0.000820107 sec
+CPU serial time: 4.4029e-05 sec
+
+Success!
+
+Array size: 1024, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.0708183 sec
+Kernel time using USM: 0.000902489 sec
+CPU serial time: 0.000133606 sec
+
+Success!
+
+Array size: 2048, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.072762 sec
+Kernel time using USM: 0.000904852 sec
+CPU serial time: 0.000224169 sec
+
+Success!
+
+Array size: 4096, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.0724573 sec
+Kernel time using USM: 0.00102598 sec
+CPU serial time: 0.000465404 sec
+
+Success!
+
+Array size: 8192, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.0715401 sec
+Kernel time using USM: 0.00123933 sec
+CPU serial time: 0.000949402 sec
+
+Success!
+
+Array size: 16384, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.0729025 sec
+Kernel time using USM: 0.00157506 sec
+CPU serial time: 0.00199306 sec
+
+Success!
+
+Array size: 32768, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.0729348 sec
+Kernel time using USM: 0.00225772 sec
+CPU serial time: 0.00441091 sec
+
+Success!
+
+Array size: 65536, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.0751648 sec
+Kernel time using USM: 0.00382237 sec
+CPU serial time: 0.00889711 sec
+
+Success!
+
+Array size: 131072, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.0792611 sec
+Kernel time using USM: 0.00757883 sec
+CPU serial time: 0.0182076 sec
+
+Success!
+
+Array size: 262144, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.0858708 sec
+Kernel time using USM: 0.0126992 sec
+CPU serial time: 0.0395513 sec
+
+Success!
+
+Array size: 524288, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.100052 sec
+Kernel time using USM: 0.0256791 sec
+CPU serial time: 0.0805387 sec
+
+Success!
+
+Array size: 1048576, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.127353 sec
+Kernel time using USM: 0.0541116 sec
+CPU serial time: 0.169658 sec
+
+Success!
+
+Array size: 2097152, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.193322 sec
+Kernel time using USM: 0.117382 sec
+CPU serial time: 0.374703 sec
+
+Success!
+
+Array size: 4194304, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.343911 sec
+Kernel time using USM: 0.258707 sec
+CPU serial time: 0.779879 sec
+
+Success!
+
+Array size: 8388608, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 0.665887 sec
+Kernel time using USM: 0.576276 sec
+CPU serial time: 1.65049 sec
+
+Success!
+
+Array size: 16777216, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 1.36881 sec
+Kernel time using USM: 1.26016 sec
+CPU serial time: 3.46708 sec
+
+Success!
+
+Array size: 33554432, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 2.88366 sec
+Kernel time using USM: 2.75215 sec
+CPU serial time: 7.26917 sec
+
+Success!
+
+Array size: 67108864, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 6.18492 sec
+Kernel time using USM: 5.97445 sec
+CPU serial time: 15.3495 sec
+
+Success!
+
+Array size: 134217728, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 13.3461 sec
+Kernel time using USM: 13.0105 sec
+CPU serial time: 31.9157 sec
+
+Success!
+
+Array size: 268435456, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 28.7798 sec
+Kernel time using USM: 28.2309 sec
+CPU serial time: 66.8897 sec
+
+Success!
+
+Array size: 536870912, seed: 42
+Device: Intel(R) UHD Graphics P630 [0x3e96]
+Kernel time using buffer allocation: 62.1744 sec
+Kernel time using USM: 60.9349 sec
+CPU serial time: 139.369 sec
+
+Success!
+
+########################################################################
+# End of output for job 1959440.v-qsvr-1.aidevcloud
+# Date: Thu 21 Jul 2022 11:21:41 AM PDT
+########################################################################
+

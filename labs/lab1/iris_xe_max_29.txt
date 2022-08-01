@@ -1,0 +1,232 @@
+
+Array size: 2, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.0842496 sec
+Kernel time using USM: 7.0376e-05 sec
+CPU serial time: 2.6e-07 sec
+
+Success!
+
+Array size: 4, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.085178 sec
+Kernel time using USM: 9.6087e-05 sec
+CPU serial time: 3.07e-07 sec
+
+Success!
+
+Array size: 8, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.0870066 sec
+Kernel time using USM: 0.000144726 sec
+CPU serial time: 7.06e-07 sec
+
+Success!
+
+Array size: 16, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.0864006 sec
+Kernel time using USM: 0.000185733 sec
+CPU serial time: 1.379e-06 sec
+
+Success!
+
+Array size: 32, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.0853873 sec
+Kernel time using USM: 0.00025251 sec
+CPU serial time: 2.86e-06 sec
+
+Success!
+
+Array size: 64, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.0867517 sec
+Kernel time using USM: 0.000298301 sec
+CPU serial time: 5.699e-06 sec
+
+Success!
+
+Array size: 128, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.0853316 sec
+Kernel time using USM: 0.000419993 sec
+CPU serial time: 1.1986e-05 sec
+
+Success!
+
+Array size: 256, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.0858166 sec
+Kernel time using USM: 0.000424961 sec
+CPU serial time: 2.4859e-05 sec
+
+Success!
+
+Array size: 512, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.0851535 sec
+Kernel time using USM: 0.00056896 sec
+CPU serial time: 5.0838e-05 sec
+
+Success!
+
+Array size: 1024, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.0855356 sec
+Kernel time using USM: 0.000824933 sec
+CPU serial time: 0.000114276 sec
+
+Success!
+
+Array size: 2048, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.0891021 sec
+Kernel time using USM: 0.000773583 sec
+CPU serial time: 0.000236931 sec
+
+Success!
+
+Array size: 4096, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.0867966 sec
+Kernel time using USM: 0.000950685 sec
+CPU serial time: 0.000512253 sec
+
+Success!
+
+Array size: 8192, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.0868526 sec
+Kernel time using USM: 0.00102306 sec
+CPU serial time: 0.00110485 sec
+
+Success!
+
+Array size: 16384, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.0887042 sec
+Kernel time using USM: 0.00127659 sec
+CPU serial time: 0.00234025 sec
+
+Success!
+
+Array size: 32768, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.0923028 sec
+Kernel time using USM: 0.00163464 sec
+CPU serial time: 0.00473586 sec
+
+Success!
+
+Array size: 65536, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.0993401 sec
+Kernel time using USM: 0.00224221 sec
+CPU serial time: 0.00993142 sec
+
+Success!
+
+Array size: 131072, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.118632 sec
+Kernel time using USM: 0.00348748 sec
+CPU serial time: 0.0211275 sec
+
+Success!
+
+Array size: 262144, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.156348 sec
+Kernel time using USM: 0.00616026 sec
+CPU serial time: 0.0441929 sec
+
+Success!
+
+Array size: 524288, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.238135 sec
+Kernel time using USM: 0.0114778 sec
+CPU serial time: 0.0917141 sec
+
+Success!
+
+Array size: 1048576, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.413566 sec
+Kernel time using USM: 0.023349 sec
+CPU serial time: 0.192296 sec
+
+Success!
+
+Array size: 2097152, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 0.792797 sec
+Kernel time using USM: 0.0499553 sec
+CPU serial time: 0.415892 sec
+
+Success!
+
+Array size: 4194304, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 1.6081 sec
+Kernel time using USM: 0.103797 sec
+CPU serial time: 0.95943 sec
+
+Success!
+
+Array size: 8388608, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 2.9757 sec
+Kernel time using USM: 0.223406 sec
+CPU serial time: 2.05327 sec
+
+Success!
+
+Array size: 16777216, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 5.90204 sec
+Kernel time using USM: 0.483661 sec
+CPU serial time: 4.34651 sec
+
+Success!
+
+Array size: 33554432, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 12.2034 sec
+Kernel time using USM: 1.0449 sec
+CPU serial time: 9.1916 sec
+
+Success!
+
+Array size: 67108864, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 25.7505 sec
+Kernel time using USM: 2.23895 sec
+CPU serial time: 19.419 sec
+
+Success!
+
+Array size: 134217728, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 54.8296 sec
+Kernel time using USM: 4.77636 sec
+CPU serial time: 40.9464 sec
+
+Success!
+
+Array size: 268435456, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 117.095 sec
+Kernel time using USM: 10.1633 sec
+CPU serial time: 86.204 sec
+
+Success!
+
+Array size: 536870912, seed: 42
+Device: Intel(R) Iris(R) Xe MAX Graphics [0x4905]
+Kernel time using buffer allocation: 250.196 sec
+Kernel time using USM: 21.6346 sec
+CPU serial time: 181.377 sec
+
+Success!
