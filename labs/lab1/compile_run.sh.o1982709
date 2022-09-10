@@ -1,0 +1,174 @@
+
+########################################################################
+#      Date:           Sat 10 Sep 2022 11:27:25 AM PDT
+#    Job ID:           1982709.v-qsvr-1.aidevcloud
+#      User:           u122046
+# Resources:           neednodes=1:i9-11900kb:ppn=2,nodes=1:i9-11900kb:ppn=2,walltime=06:00:00
+########################################################################
+
+
+Array size: 1024, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 0.281938 sec
+Kernel time using USM: 0.0044286 sec
+CPU serial time: 9.9805e-05 sec
+
+Success!
+
+Array size: 2048, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 0.0631299 sec
+Kernel time using USM: 0.0011893 sec
+CPU serial time: 0.000222177 sec
+
+Success!
+
+Array size: 4096, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 0.0621328 sec
+Kernel time using USM: 0.00110994 sec
+CPU serial time: 0.000466653 sec
+
+Success!
+
+Array size: 8192, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 0.0632924 sec
+Kernel time using USM: 0.00138621 sec
+CPU serial time: 0.000949077 sec
+
+Success!
+
+Array size: 16384, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 0.0637703 sec
+Kernel time using USM: 0.0018087 sec
+CPU serial time: 0.00196887 sec
+
+Success!
+
+Array size: 32768, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 0.0637327 sec
+Kernel time using USM: 0.0027647 sec
+CPU serial time: 0.00411236 sec
+
+Success!
+
+Array size: 65536, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 0.0663179 sec
+Kernel time using USM: 0.00431781 sec
+CPU serial time: 0.00823791 sec
+
+Success!
+
+Array size: 131072, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 0.0689511 sec
+Kernel time using USM: 0.00753043 sec
+CPU serial time: 0.0167644 sec
+
+Success!
+
+Array size: 262144, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 0.0760861 sec
+Kernel time using USM: 0.0149629 sec
+CPU serial time: 0.0345907 sec
+
+Success!
+
+Array size: 524288, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 0.0924085 sec
+Kernel time using USM: 0.0307333 sec
+CPU serial time: 0.0706998 sec
+
+Success!
+
+Array size: 1048576, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 0.125927 sec
+Kernel time using USM: 0.0647882 sec
+CPU serial time: 0.143962 sec
+
+Success!
+
+Array size: 2097152, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 0.200153 sec
+Kernel time using USM: 0.139194 sec
+CPU serial time: 0.294953 sec
+
+Success!
+
+Array size: 4194304, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 0.362286 sec
+Kernel time using USM: 0.301695 sec
+CPU serial time: 0.621613 sec
+
+Success!
+
+Array size: 8388608, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 0.723361 sec
+Kernel time using USM: 0.659993 sec
+CPU serial time: 1.42952 sec
+
+Success!
+
+Array size: 16777216, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 1.5741 sec
+Kernel time using USM: 1.49805 sec
+CPU serial time: 3.10209 sec
+
+Success!
+
+Array size: 33554432, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 3.50972 sec
+Kernel time using USM: 3.40242 sec
+CPU serial time: 6.52852 sec
+
+Success!
+
+Array size: 67108864, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 7.67882 sec
+Kernel time using USM: 7.55972 sec
+CPU serial time: 13.6987 sec
+
+Success!
+
+Array size: 134217728, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 16.7831 sec
+Kernel time using USM: 17.5077 sec
+CPU serial time: 28.548 sec
+
+Success!
+
+Array size: 268435456, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 37.0014 sec
+Kernel time using USM: 38.1433 sec
+CPU serial time: 59.3201 sec
+
+Success!
+
+Array size: 536870912, seed: 42
+Device: 11th Gen Intel(R) Core(TM) i9-11900KB @ 3.30GHz
+Kernel time using buffer allocation: 81.9424 sec
+Kernel time using USM: 82.0854 sec
+CPU serial time: 123.955 sec
+
+Success!
+
+########################################################################
+# End of output for job 1982709.v-qsvr-1.aidevcloud
+# Date: Sat 10 Sep 2022 11:36:54 AM PDT
+########################################################################
+
