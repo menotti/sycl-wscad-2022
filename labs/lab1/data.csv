@@ -1,0 +1,5 @@
+versão, tempo_de_execução_s
+naive, 4.31875
+o3, 1.09091
+unroll, 0.208338
+avx512f, 0.197168
