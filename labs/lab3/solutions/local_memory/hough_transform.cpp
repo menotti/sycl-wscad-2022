@@ -96,20 +96,20 @@ int main() {
       //Call the kernel
       cgh.single_task<class Hough_transform_kernel>([=]() {
 
-      short accum_local[RHOS*2*THETAS];
-
-      for (int i = 0; i < RHOS*2*THETAS; i++) {
-          accum_local[i] = 0;
-      }
-
-      for (uint y=0; y<HEIGHT; y++) {
-        for (uint x=0; x<WIDTH; x++){
-          unsigned short int increment = 0;
-        if (_pixels[(WIDTH*y)+x] != 0) {
-          increment = 1;
-        } else {
-          increment = 0;
+        short accum_local[RHOS*2*THETAS];
+  
+        for (int i = 0; i < RHOS*2*THETAS; i++) {
+            accum_local[i] = 0;
         }
+  
+        for (uint y=0; y<HEIGHT; y++) {
+          for (uint x=0; x<WIDTH; x++){
+            unsigned short int increment = 0;
+            if (_pixels[(WIDTH*y)+x] != 0) {
+              increment = 1;
+            } else {
+              increment = 0;
+            }
 
             for (int theta=0; theta<THETAS; theta++){
               int rho = x*_cos_table[theta] + y*_sin_table[theta];

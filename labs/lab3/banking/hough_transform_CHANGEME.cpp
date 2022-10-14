@@ -96,37 +96,32 @@ int main() {
       //Call the kernel
       cgh.single_task<class Hough_transform_kernel>([=]() {
 
-      [[intelfpga::numbanks(256)]]
-      short accum_local[RHOS*2][256];
-
-      for (int i = 0; i < RHOS*2; i++) {
-        for (int j=0; j<THETAS; j++) {
-          accum_local[i][j] = 0;
-	}
-      }
-
-      for (uint y=0; y<HEIGHT; y++) {
-        for (uint x=0; x<WIDTH; x++){
-          unsigned short int increment = 0;
-        if (_pixels[(WIDTH*y)+x] != 0) {
-          increment = 1;
-        } else {
-          increment = 0;
+        short accum_local[RHOS*2*THETAS];
+  
+        for (int i = 0; i < RHOS*2*THETAS; i++) {
+            accum_local[i] = 0;
         }
+  
+        for (uint y=0; y<HEIGHT; y++) {
+          for (uint x=0; x<WIDTH; x++){
+            unsigned short int increment = 0;
+            if (_pixels[(WIDTH*y)+x] != 0) {
+              increment = 1;
+            } else {
+              increment = 0;
+            }
     
             #pragma unroll 32 
             [[intelfpga::ivdep]]
             for (int theta=0; theta<THETAS; theta++){
               int rho = x*_cos_table[theta] + y*_sin_table[theta];
-              accum_local[rho+RHOS][theta] += increment;
+              accum_local[(THETAS*(rho+RHOS))+theta] += increment;
             }
           }
         }
 
-        for (int i = 0; i < RHOS*2; i++) {
-          for (int j=0; j<THETAS; j++) {
-	    _accumulators[i*THETAS+j] = accum_local[i][j];
-	  }
+        for (int i = 0; i < RHOS*2*THETAS; i++) {
+         _accumulators[i] = accum_local[i];
         }
    
       });

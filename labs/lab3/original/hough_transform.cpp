@@ -135,13 +135,13 @@ int main() {
   while (myFile >> number) {
     myList.push_back(number);
   }
-    
+	
   bool failed = false;
   for (int i=0; i<THETAS*RHOS*2; i++) {
     if ((myList[i]>accumulators[i]+1) || (myList[i]<accumulators[i]-1)) {
       failed = true;
       checkFile << "Failed at " << i << ". Expected: " << myList[i] << ", Actual: "
-                << accumulators[i] << endl;
+	      << accumulators[i] << endl;
     }
   }
 
