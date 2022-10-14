@@ -37,9 +37,6 @@ int main(int argc, char* argv[]) {
         std::cout << "An exception is caught while adding two vectors.\n";
         std::terminate();
     }
-    free(a, q);
-    free(b, q);
-    free(s, q);
     std::cout << "Vector add successfully completed on device.\n";
     return 0;
 }

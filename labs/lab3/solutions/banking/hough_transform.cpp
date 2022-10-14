@@ -96,7 +96,7 @@ int main() {
       //Call the kernel
       cgh.single_task<class Hough_transform_kernel>([=]() {
 
-        [[intelfpga::numbanks(256)]]
+        [[intel::numbanks(256)]]
         short accum_local[RHOS*2][256];
   
         for (int i = 0; i < RHOS*2; i++) {
@@ -115,7 +115,7 @@ int main() {
             }
         
             #pragma unroll 32 
-            [[intelfpga::ivdep]]
+            [[intel::ivdep]]
             for (int theta=0; theta<THETAS; theta++){
               int rho = x*_cos_table[theta] + y*_sin_table[theta];
               accum_local[rho+RHOS][theta] += increment;
