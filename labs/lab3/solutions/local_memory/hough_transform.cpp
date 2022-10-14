@@ -1,6 +1,6 @@
 #include <vector>
 #include <CL/sycl.hpp>
-#include <CL/sycl/intel/fpga_extensions.hpp>
+#include <sycl/ext/intel/fpga_extensions.hpp>
 #include <chrono>
 #include <fstream>
 
@@ -64,11 +64,11 @@ int main() {
     //Device selection
     //We will explicitly compile for the FPGA_EMULATOR, CPU_HOST, or FPGA
     #if defined(FPGA_EMULATOR)
-      sycl::intel::fpga_emulator_selector device_selector;
+      sycl::ext::intel::fpga_emulator_selector device_selector;
     #elif defined(CPU_HOST)
       sycl::host_selector device_selector;
     #else
-      sycl::intel::fpga_selector device_selector;
+      sycl::ext::intel::fpga_selector device_selector;
     #endif
 
     //Create queue
