@@ -6,14 +6,14 @@
 #include <math.h>
 #include <CL/sycl.hpp>
 
-#define inter 1000
+#define itera 1000
 
 using namespace std;
 using namespace std::chrono;
 
 int main(int argc, char* argv[]) {
-    sycl::cpu_selector selector;
-    //sycl::gpu_selector selector;
+    //sycl::cpu_selector selector;
+    sycl::gpu_selector selector;
     int dimx, dimy, depth, size;
     string line; 
 
@@ -52,7 +52,7 @@ int main(int argc, char* argv[]) {
         std::cout << "Running on device: " << q.get_device().get_info<sycl::info::device::name>() << "\n";
 
         auto start = high_resolution_clock::now();
-        for (auto it = 0u; it < inter; it++) {
+        for (auto it = 0u; it < itera; it++) {
             sycl::range<1> rsize{static_cast<size_t>(size)};
             q.submit([&](sycl::handler &h) {
                 h.parallel_for(rsize, [=](auto i) {

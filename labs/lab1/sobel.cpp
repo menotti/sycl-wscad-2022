@@ -5,7 +5,7 @@
 #include <chrono>
 #include <math.h>
 
-#define inter 1000
+#define itera 1000
 
 using namespace std;
 using namespace std::chrono;
@@ -47,7 +47,7 @@ int main(int argc, char* argv[]) {
     ifs.close();
 
     auto start = high_resolution_clock::now();
-    for (auto it = 0u; it < inter; it++) {
+    for (auto it = 0u; it < itera; it++) {
         for (auto ii = 0u, oi = 0u; ii < size*3; ii=ii+3, oi++) {
             r = (char)rgb[ii];
             g = (char)rgb[ii+1];

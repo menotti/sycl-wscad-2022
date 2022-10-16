@@ -6,14 +6,14 @@
 #include <math.h>
 #include <CL/sycl.hpp>
 
-#define inter 1000
+#define itera 1000
 
 using namespace std;
 using namespace std::chrono;
 
 int main(int argc, char* argv[]) {
-    sycl::cpu_selector selector;
-    //sycl::gpu_selector selector;
+    //sycl::cpu_selector selector;
+    sycl::gpu_selector selector;
     int dimx, dimy, depth, size;
     string line; 
 
@@ -55,7 +55,7 @@ int main(int argc, char* argv[]) {
         sycl::buffer<char> gray_buf(gray, size);
         sycl::range<1> rsize{static_cast<size_t>(size)};
         auto start = high_resolution_clock::now();
-        for (auto it = 0u; it < inter; it++) {
+        for (auto it = 0u; it < itera; it++) {
             q.submit([&](sycl::handler &h) {
                 sycl::accessor rgb_acc(rgb_buf, h, sycl::read_only);
                 sycl::accessor gray_acc(gray_buf, h, sycl::write_only, sycl::no_init);
